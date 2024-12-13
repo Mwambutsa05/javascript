@@ -16,3 +16,11 @@
     return d/t
     console. log("The speed is" + speed(30,2))
    }
+   function interest(p,r,t){
+    return p*r*t/100
+    console.log("The interest is" + interest(1000,5,2))
+   }
+   function cube(s){
+    volume=s*s*s;
+    console.log("The volume is" + volume)
+   }
